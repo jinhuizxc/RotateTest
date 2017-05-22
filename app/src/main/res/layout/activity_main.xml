@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/main_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/main_radio0"
+            android:checked="true"
+            android:text="ShowOne"
+            style="@style/radio_style" />
+
+        <RadioButton
+            android:id="@+id/main_radio1"
+            android:text="ShowTwo"
+            style="@style/radio_style" />
+
+        <RadioButton
+            android:id="@+id/main_radio2"
+            android:text="ShowThree"
+            style="@style/radio_style" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="TextView" />
+
+</LinearLayout>
